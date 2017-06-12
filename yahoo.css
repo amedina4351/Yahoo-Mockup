@@ -1,0 +1,154 @@
+body {
+	max-height: 100vh;
+	background-image: url("bigger_kanye copy.jpg");
+	background-repeat: no-repeat;
+	overflow: hidden;
+	/*background-attachment: fixed;*/
+}
+
+.box_white{
+	position: relative;
+    float: right;
+	width:400px;
+	height:100vh;
+	background:#FFFFFF;
+	margin: 0;
+	top: -100px;
+}
+
+#cards {
+  margin-top: 100px;
+  width: 640px;
+  color: white;
+}
+
+
+/* Colors for the cards */
+.purplebox_1 { 
+  background: #8B399A;
+  font-family:'Francois One', 
+  sans-serif;
+  color: white; 
+  font-size: 25px;
+}
+.purplebox_2 { 
+  background: #6E2F7A;
+  font-family:'Francois One', 
+  sans-serif;
+  color: white; 
+  font-size: 25px
+      width: 318px;
+    height: 25px;
+}
+.purplebox_3 { 
+  background: #B476C4;
+  font-family:'Francois One', 
+  sans-serif;
+  color: white;
+  font-size: 25px
+  }
+
+.purplebox_4 { 
+  background: #985BA7;
+  font-family:'Francois One', 
+  sans-serif;
+  color: white; 
+  font-size: 25px
+}
+.purplebox_5 { 
+  background: #8E39A3;
+  font-family:'Francois One', 
+  sans-serif;
+  color: white;
+  font-size: 25px
+}
+
+.purplebox_6 { 
+  background: #A75CBA;
+  font-family:'Francois One', 
+  sans-serif;
+  color: white;
+  font-size: 25px
+}
+
+.weather {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+
+img.weather {
+	position: relative;
+    left: 8px;
+    top: 11px;
+}
+
+#SFweather{
+	position: relative;
+    top: 5px;
+    left: 9px;
+}
+/*top left purple*/
+#cards > div {
+  width: 600px;
+  min-height: 47px;
+  display: inline-block;
+  position: relative;
+  transition: transform 0s;
+}
+
+/*top left purple boxes hover effect*/
+#cards > div:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+/*top left purple box shadows*/
+#cards > div:after {
+  content: "";
+  background: inherit;
+  filter: blur(.5em);
+  opacity: 0;
+  height: 20%;
+  width: 70%;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: opacity .1s, bottom 0.9s;
+}
+
+#cards > div:hover:after {
+  opacity: .8;
+  bottom: -1.2em;
+}
+
+.news_links {
+  color: #6E2F7A;
+  font-family: 'Francois One', 
+  sans-serif;   
+  font-size: 15px;
+  text-indent: 45px; 
+}
+
+#undertext {
+  font-size: 10px;
+  text-indent: 73px;
+  color: #6E2F7A
+}
+
+#headlinenews {
+  font-family: 'Francois One', sans-serif;
+  font-size: 31px;
+  padding: 50px;
+}
+
+#latest_news {
+  font-family: 'Francois One', sans-serif;
+  font-size: 12px;
+  padding: 15px 46px 0px 50px
+
+
+}
